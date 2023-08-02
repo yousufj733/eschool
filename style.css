@@ -1,0 +1,300 @@
+
+
+/*############------------------- HERO CSS  */
+
+.hero 
+{
+    background-color: #f0fff0;
+    padding: 130px 0;
+}
+.hero__left
+{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+.hero__left small
+{
+    color: #fb5f2b;
+    font-weight: 600;
+    font-size: 14px;
+}
+.hero__left p 
+{
+    color: #818280;
+    line-height: 2;
+}
+.hero__left h1
+{
+    font-size: 53px;
+    color: #000000;
+    line-height: 1.3!important;
+}
+
+.hero__left span 
+{
+    color: #21b573;
+}
+.hero__right
+{
+    width: 50%;
+}
+.hero__right img 
+{
+    width: 600px;
+}
+
+
+/*##### ----------------------------- schedule  */
+.schedule 
+{
+    padding: 5rem 0;
+   
+}
+.schedule__part
+{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    text-align: center;
+    align-items: center;
+    background-color: #f8fffb;
+    padding: 3rem 2rem;
+}
+.schedule__part:hover 
+{
+    background-color: white;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border-radius: 7px;
+}
+.schedule__part img 
+{
+    width: 73px;
+    height: 90px;
+   
+    
+}
+.schedule__des
+{
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+}
+
+.schedule__des h3 
+{
+    font-size: 20px;
+}
+
+/*#################---------------------- Courses CSS  */
+.course
+{
+    padding: 5rem 0;
+}
+
+.card 
+{
+    background-color: white;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border-radius: 7px;
+    width: 100%;
+    height: auto;
+    padding: 25px;
+    
+}
+
+
+.card__img img 
+{
+    width: 393px;
+}
+
+.card__des 
+{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    padding-top: 2rem;
+}
+.card__des p 
+{
+    color: #818280;
+    font-weight: 600;
+}
+.card__des  h2  
+{
+    color: #2b373d;
+}
+
+
+.card__des button {
+    width: 40%;
+    margin-top: 1rem;
+    border: none;
+}
+.card__bottom 
+{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+    margin-top: 30px;
+}
+.card__bottom p 
+{
+    font-weight: 600;
+    color: #818280;
+}
+.card__bottom img
+{
+    width: 30px;
+    height: 32px;
+}
+.card__left,.card__right
+{
+    display: flex;
+    gap: 0.7rem;
+    align-items: center;
+}
+/* ################--------------- Testimonial */
+
+.testimonial
+{
+    padding: 5rem 0;
+}
+
+.testimonial__card
+{
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  width: 45%;
+}
+.testimonial__card p
+{
+  font-weight: 600;
+  font-size: 19px;
+  opacity: 0.7;
+  line-height: 1.7;
+}
+.testimonial__card img 
+{
+    width: 150px;
+    border-radius: 50%;
+}
+
+/* ##### --------------------- Footer  */
+
+footer
+{
+    padding: 4rem 0;
+    background-color: #282531;
+    height: auto;
+    color: white;
+}
+
+.footer 
+{
+   
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;   
+    gap: 1rem;
+}
+.footer p
+{
+   
+  width: 76%;
+}
+footer h1
+{
+    font-size: 21px;
+}
+
+.footer ul li 
+{
+    margin-top: 1rem;
+}
+footer p 
+{
+    width: 30%;
+    line-height: 1.7;
+}
+
+
+.copyright
+{
+    
+    background-color: #282531;
+    padding: 1rem 0;
+    color: white;
+    text-align: center;
+    
+
+}
+.copyright p 
+{
+   font-size: 17px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ############ Phones  */
+
+  @media only screen and (max-width: 600px) {
+
+.sticky-header {
+
+height: 60px;
+
+}
+
+.hero__left
+{
+    width: 100%;
+    align-items: center;
+}
+.hero__left small
+{
+  
+    font-size: 14px;
+}
+.hero__left p 
+{
+   font-size: 13px;
+    line-height: 1.2;
+}
+.hero__left h1
+{
+    font-size: 33px;
+   
+}
+.hero__right img 
+{
+    width: 400px;
+}
+.hero__right
+{
+    width: 100%;
+    align-items: center;
+}
+
+.testimonial__card
+{
+    flex-direction: column;
+}
+.testimonial__card p {
+    font-weight: 500;
+    font-size: 14px;
+    width: 71%;
+  }
+
+}
